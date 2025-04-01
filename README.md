@@ -9,7 +9,7 @@
 	<body>
 	   <h1>Resources</h1>
 	   <section>
-	   <h2 class="integ"><a class="integ" href ="#"> Integers</a></h2>
+	   <h2 class="integ"><a class="integ" href ="#"> Integers!</a></h2>
 	   <h3><a class="integers-link" href ="Integers.pdf" target="new" /> Exercises </h3>
 	   <h2 class="funct"><a class="funct" href ="#">Functions</a></h2>
 	   <h2 class="top"><a class="top" href ="#">Topology</a></h2>
