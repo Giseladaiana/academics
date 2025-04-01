@@ -18,7 +18,7 @@
 	   <h3> Group Theory</h3>
 	   <h2 class="ana"><a class="ana" href ="#">Analysis</a></h2>
 	   
-	   <h3 class="integ"> <a class="integ" href = "#" Measure and Integration Theory</a></h3>
+	   ### Measure and Integration Theory
 	   <h3> Functional Analysis</h3>
 	   <h3> Complex Analysis </h3>
 	   </section>
