@@ -5,7 +5,7 @@
 		</title>
 		<meta charset="utf-8"/>
 		<link rel="stylesheet" href="estilos.css">
-	</head>
+    </head>
 	<body>
 	   <h1>Resources</h1>
 	   <section>
