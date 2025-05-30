@@ -1,6 +1,11 @@
 /* estilos.css */
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  .lavishly-yours-regular {
+  font-family: "Lavishly Yours", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
   margin: 0;
   padding: 2rem;
   background-color: #fdfdfd;
