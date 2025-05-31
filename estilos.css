@@ -140,7 +140,7 @@ table {
 
 th, td {
   border: 1px solid #ddd;
-  padding: 1rem;
+  padding: 10px;
   vertical-align: top;
 }
 
@@ -150,7 +150,7 @@ th {
 }
 
 a {
-  color: #2a4d9b;
+  color: #1a3faa;
   text-decoration: none;
 }
 
