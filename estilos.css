@@ -151,4 +151,8 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
+.interdisciplinary {
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem;
+}
