@@ -125,3 +125,30 @@ footer {
   transform: scale(1.01);
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  margin-top: 2rem;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: #f4f4f4;
+  text-align: left;
+}
+
+a {
+  color: #2a4d9b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
