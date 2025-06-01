@@ -50,11 +50,18 @@
     <tr>
       <td style="text-align: center; font-weight: bold;">
         Specialized Topics</td>
-      <td>
-        <a href="pdfs/topology.pdf">Topology</a><br>
-        <a href="pdfs/functional_analysis_1.pdf">Functional Analysis I</a><br>
-        <a href="pdfs/functional_analysis_2.pdf">Functional Analysis II (Operator Algebras)</a><br>
-        <a href="pdfs/number_theory.pdf">Number Theory</a>
+     <td>
+        Topology<br>
+        Functional Analysis I<br>
+        <h4 onclick="toggleVisibility('fa2-subtopics')" style="cursor: pointer; margin: 0;">
+          Functional Analysis II (Operator Algebras) ⯆
+        </h4>
+        <ul id="fa2-subtopics" style="display: none; margin-left: 1.2rem; margin-top: 0.2rem;">
+          <li><a href="maps/fa2/star-algebras.pdf" target="_blank">*-Algebras</a></li>
+          <li><a href="maps/fa2/cstar-algebras.pdf" target="_blank">C*-Algebras</a></li>
+          <li><a href="maps/fa2/unbounded-operators.pdf" target="_blank">Unbounded Operators</a></li>
+        </ul>
+        Number Theory
       </td>
       <td>
         <a href="pdfs/qft.pdf">Quantum Field Theory</a><br>
@@ -78,3 +85,11 @@
   </footer>
 </body>
 </html>
+
+<script>
+  function toggleVisibility(id) {
+    const el = document.getElementById(id);
+    el.style.display = (el.style.display === 'none') ? 'block' : 'none';
+  }
+</script>
+
