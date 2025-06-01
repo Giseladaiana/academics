@@ -171,12 +171,9 @@ summary::marker {
   display: none;
 }
 
-/* Vignette icon style */
+
 .vignette-icon {
   display: none;
-  margin-right: 0.5rem;
-  color: #555;
-  font-size: 1.1rem;
 }
 
 /* Show vignette only on hover */
