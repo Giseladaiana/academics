@@ -197,10 +197,8 @@ details ul {
   padding-left: 1rem;
   border-left: 2px solid #ddd;
 }
-details summary::after {
-  content: '';
-  float: right;
-  transition: transform 0.3s ease;
+details summary::-webkit-details-marker {
+  display: none;
 }
 
 details summary:hover::after {
