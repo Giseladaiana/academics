@@ -163,17 +163,20 @@ a:hover {
   padding: 1rem;
 }
 
-/* Remove default triangle */
-details summary::-webkit-details-marker {
+/* Hide native toggle arrow */
+summary::-webkit-details-marker {
+  display: none;
+}
+summary::marker {
   display: none;
 }
 
-/* Custom vignette (initially hidden) */
+/* Vignette icon style */
 .vignette-icon {
-  float: right;
-  margin-left: 0.5rem;
-  color: #999;
   display: none;
+  margin-right: 0.5rem;
+  color: #555;
+  font-size: 1.1rem;
 }
 
 /* Show vignette only on hover */
