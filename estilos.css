@@ -181,8 +181,8 @@ a:hover {
 
 .accordion-content {
   display: none;
-  margin-top: 1rem;
-  padding-left: 1rem;
+  margin-top: 0.8rem;
+  padding-left: 0.8rem;
 }
 
 .accordion-header:hover {
@@ -190,6 +190,6 @@ a:hover {
 }
 
 .accordion-toggle {
-  font-size: 1.2rem;
+  font-size: 1rem;
   user-select: none;
 }
