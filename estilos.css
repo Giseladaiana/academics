@@ -163,45 +163,20 @@ a:hover {
   padding: 1rem;
 }
 
-/* Hide the default arrow */
+/* Remove default triangle */
 details summary::-webkit-details-marker {
   display: none;
 }
 
-/* Add custom arrow, only on hover */
-details summary::after {
-  content: '';
+/* Custom vignette (initially hidden) */
+.vignette-icon {
   float: right;
-  transition: transform 0.3s ease;
-}
-
-/* Show arrow only on hover */
-details summary:hover::after {
-  content: '⯆';
-}
-
-/* Rotate arrow if open */
-details[open] summary::after {
-  transform: rotate(180deg);
-  content: '⯆';
-}
-details summary {
-  cursor: pointer;
-  font-weight: bold;
-  padding: 0.2rem 0;
-  position: relative;
-}
-
-details ul {
-  margin-left: 1rem;
-  padding-left: 1rem;
-  border-left: 2px solid #ddd;
-}
-details summary::-webkit-details-marker {
+  margin-left: 0.5rem;
+  color: #999;
   display: none;
 }
 
-details summary:hover::after {
-  content: '⬤'; /* Or ◉, 🟢, etc. */
-  color: #666;
+/* Show vignette only on hover */
+summary:hover .vignette-icon {
+  display: inline;
 }
