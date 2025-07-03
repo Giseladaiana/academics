@@ -180,3 +180,21 @@ summary::marker {
 summary:hover .vignette-icon {
   display: inline;
 }
+
+
+.article-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.article-list h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.article-list p {
+  color: #555;
+  margin-bottom: 2rem;
+}
+
