@@ -207,12 +207,11 @@ summary:hover .vignette-icon {
 
 
 article {
-  max-width: 600px;
-  margin: 3rem auto;
+  max-width: 650px;
+  margin: 2rem auto;
   padding: 0 1.5rem;
-  line-height: 1.7;
+  line-height: 1.8;
   font-size: 1.05rem;
-  font-family: Georgia, 'Times New Roman', serif;
 }
 
 
