@@ -189,12 +189,13 @@ summary:hover .vignette-icon {
 }
 
 .article-list h2 {
-  font-size: 1.5rem;
+  font-family: 'Lavishly Yours', cursive;
+  font-size: 5rem;
   margin-bottom: 0.5rem;
 }
 
 .article-list p {
-  color: #555;
+  color: #ff9633;
   margin-bottom: 2rem;
 }
 
