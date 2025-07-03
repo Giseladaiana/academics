@@ -195,13 +195,13 @@ summary:hover .vignette-icon {
 }
 
 .article-list p {
-  color: #ff9633;
+  color: #FFA07A;
   margin-bottom: 2rem;
 }
 
 
 article {
-  max-width: 700px;
+  max-width: 600px;
   margin: 3rem auto;
   padding: 0 1.5rem;
   line-height: 1.7;
@@ -216,6 +216,6 @@ article h4 {
   font-weight: bold;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  color: #222;
+  color: #a04000;
 }
 
