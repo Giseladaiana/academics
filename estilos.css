@@ -199,3 +199,23 @@ summary:hover .vignette-icon {
   margin-bottom: 2rem;
 }
 
+
+article {
+  max-width: 700px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  line-height: 1.7;
+  font-size: 1.05rem;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+
+article h2,
+article h3,
+article h4 {
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #222;
+}
+
