@@ -180,7 +180,13 @@ summary::marker {
 summary:hover .vignette-icon {
   display: inline;
 }
-
+.article-page h1 {
+  font-family: 'Noto Sans', Arial, sans-serif;
+  font-size: 2rem;
+  color: #8B0000; /* Dark red */
+  text-align: center;
+  margin-bottom: 2rem;
+}
 
 .article-list {
   max-width: 800px;
