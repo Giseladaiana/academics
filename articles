@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Articles</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Scientific Articles</h1>
+  </header>
+
+  <main>
+    <section class="article-list">
+      <article>
+        <h2><a href="turing-ai.html">Turing’s Question in Today’s Digital World</a></h2>
+        <p>Tiring's original questions and a reflection on conscious use of AI.</p>
+      </article>
+
+      <!-- Add more articles like this one -->
+      <!--
+      <article>
+        <h2><a href="your-next-article.html">Title of Next Article</a></h2>
+        <p>Short description of the article topic and purpose.</p>
+      </article>
+      -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 giseladianaa</p>
+  </footer>
+</body>
+</html>
