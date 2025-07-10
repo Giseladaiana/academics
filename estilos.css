@@ -211,21 +211,46 @@ summary:hover .vignette-icon {
 }
 
 article {
-  font-family: 'Noto Sans', Arial, sans-serif;
-  max-width: 600px;
-  margin: 2rem auto;
-  padding: 0 1.5rem;
+  max-width: 700px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   line-height: 1.8;
   font-size: 1.05rem;
+  font-family: 'Noto Sans', sans-serif;
+  color: #222;
 }
 
 
-article h2,
-article h3,
-article h4 {
-  font-weight: bold;
-  margin-top: 2rem;
+
+article h2 {
+  font-size: 1.8rem;
+  color: #800000; /* dark red */
   margin-bottom: 1rem;
-  color: #a04000;
+  font-family: 'Noto Sans', sans-serif;
 }
+
+article h3 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-top: 2.5rem;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+article h4 {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  font-family: 'Noto Sans', sans-serif;
+}
+article ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+article ul li {
+  margin-bottom: 0.7rem;
+}
+
 
