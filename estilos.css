@@ -1,18 +1,8 @@
 /* estilos.css */
 body {
-  font-family: font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family:  'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  margin: 0;
-  padding: 2rem;
-  background-color: #fdfdfd;
-  color: #333;
-  line-height: 1.6;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
   margin: 0;
   padding: 2rem;
   background-color: #fdfdfd;
@@ -253,5 +243,188 @@ article ul {
 article ul li {
   margin-bottom: 0.7rem;
 }
+
+
+/* Header */
+
+.reflection-header {
+  text-align: center;
+  max-width: 1000px;
+  margin: 3rem auto 3.5rem auto;
+  padding: 0 1rem;
+}
+
+.reflection-decoration {
+  font-size: 2rem;
+  color: #9a8bb8;
+  margin-bottom: 0.5rem;
+}
+
+.reflection-header h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 3.8rem;
+  font-weight: 400;
+  color: #4f4869;
+  margin: 0;
+}
+
+.reflection-header p {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.1rem;
+  color: #666274;
+  margin-top: 1rem;
+}
+
+
+/* Decorative line below title */
+
+.reflection-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  color: #a99bc5;
+  margin-top: 0.6rem;
+}
+
+.reflection-line span {
+  width: 100px;
+  height: 1px;
+  background-color: #c9bfda;
+}
+
+
+/* Main content */
+
+.reflection-main {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 1rem 4rem 1rem;
+}
+
+
+/* Article cards */
+
+.reflection-card {
+  max-width: 100%;
+  margin: 1.5rem auto;
+  padding: 2rem 2.5rem;
+
+  background-color: #fcfbfe;
+
+  border: 1px solid #e4dfeb;
+  border-radius: 14px;
+
+  box-shadow: 0 4px 15px rgba(70, 55, 100, 0.06);
+
+  font-family: 'Noto Sans', sans-serif;
+
+  text-align: left;
+}
+
+
+/* Category */
+
+.reflection-category {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08rem;
+
+  color: #8b7aa8;
+
+  margin-bottom: 0.5rem;
+}
+
+
+/* Article title */
+
+.reflection-card h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2rem;
+  font-weight: 400;
+
+  margin: 0 0 1rem 0;
+
+  color: #302b3c;
+}
+
+.reflection-card h2 a {
+  color: #302b3c;
+  text-decoration: none;
+}
+
+.reflection-card h2 a:hover {
+  color: #79669a;
+}
+
+
+/* Preview paragraphs */
+
+.reflection-preview p {
+  font-family: 'Noto Sans', sans-serif;
+
+  font-size: 1rem;
+  line-height: 1.75;
+
+  color: #55515e;
+
+  margin: 0 0 0.8rem 0;
+
+  text-align: left;
+}
+
+
+/* Read more link */
+
+.read-more {
+  display: inline-block;
+
+  margin-top: 0.5rem;
+
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+
+  color: #75618f;
+
+  text-decoration: none;
+
+  transition: 0.2s ease;
+}
+
+.read-more span {
+  margin-left: 0.4rem;
+
+  transition: margin-left 0.2s ease;
+}
+
+.read-more:hover {
+  color: #55466d;
+  text-decoration: none;
+}
+
+.read-more:hover span {
+  margin-left: 0.8rem;
+}
+
+
+/* Responsive design */
+
+@media (max-width: 700px) {
+
+  .reflection-header h1 {
+    font-size: 2.5rem;
+  }
+
+  .reflection-card {
+    padding: 1.5rem;
+  }
+
+  .reflection-card h2 {
+    font-size: 1.6rem;
+  }
+
+}
+
 
 
